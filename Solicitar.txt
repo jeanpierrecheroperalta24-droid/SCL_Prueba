@@ -1,0 +1,21 @@
+MEJORAS:
+
+-Que cargue la pagina rapido o colocar una barra de carga porque aparece primero el texto y luego
+el formato
+-Mejorar barra de despliegue, centrado, logo de SLC, entre otros
+
+********INICIO********
+1-OK_Actualizar data brindada por Aleksi
+2-OK_Colocar los iconos para el apartado "Nuestros Servicios", ademas el botos de "Ver más" 
+Iria un PDF con esos servicio? ejm: Ensayos que se realiza
+O podria ir en vez de "Ver mas" --->  "Info" para llevar o rederigir al Wsp
+3-Pie de pagina, vincular iconos con  enalces respectivos, Añadir redes sociales
+
+********SOBRE NOSOTROS********
+1-Solicitar "vision y mision"
+2-Reducir el area de textto y centrarlo
+
+********CONTACTO********
+1-Solicitar Atención Telefónica, Correo Electrónico, ubicacion´
+2-Buscar iconos
+3-Ver el tema de mapa, porque no sale el marcador de la ubicacion

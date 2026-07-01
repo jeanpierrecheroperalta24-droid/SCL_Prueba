@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Servicios de Ingeniería Geotecnia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/icons/IconLogo.png">
+    <script src="/scripts.js" defer></script>
+
+</head>
+<body>
+
+
+    <div id="header"></div>
+
+
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <div class="contenido-nosotros">
+            <!-- Descripción de la empresa -->
+            <div class="descripcion">
+                <p>SLC INGENERÍA GEOTECNIAS.A.C., una empresa 
+                    destacada en el ámbito de la ingeniería 
+                    geotécnica, comenzó sus actividades en el año 
+                    2023 con un equipo altamente capacitado de 
+                    profesionales que poseen un profundo 
+                    entendimiento en ingeniería geotécnica. 
+                    Utilizando tecnología actualizada y programas 
+                    avanzados, facilitamos la recopilación de datos 
+                    en el terreno y optimizamos su procesamiento 
+                    en las instalaciones de la empresa.
+                    Nos esforzamos por convertirnos en la empresa 
+                    más reconocida, destacando por la entrega de 
+                    resultados confiables tanto en el campo como 
+                    en el gabinete. Trabajamos incansablemente 
+                    para superar las expectativas de nuestros 
+                    clientes y contribuir al éxito de sus proyectos.
+                    </p>            
+            </div>
+            <!-- Imagen a la derecha -->
+            <div class="imagen">
+                <img src="/img/SLC_oficina.jpg" alt="Grupo de ingenieros trabajando">
+            </div>
+        </div>
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <div><img src="/icons/mision.png" alt="mision icon"></div>
+                <h3>Misión</h3>
+                <p>⦿ Brindar servicios de ingeniería geotécnica con estrategias innovadoras y creativas, asegurando la calidad y precisión en cada proyecto.</p>
+                <p>⦿ Ofrecer soluciones integrales en exploración geotécnica y control de calidad de materiales, garantizando estabilidad y confianza en las construcciones.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <div><img src="/icons/vision.png" alt="vision icon"></div>
+                <h3>Visión</h3>
+                <p>⦿ Ser reconocidos como líderes globales en servicios de ingeniería geotécnica, superando las expectativas del mercado y promoviendo la responsabilidad social y ambiental.</p>
+                <p>⦿ Obtener prestigio internacional en el ámbito de la geotecnia y calidad de materiales, destacándose como un laboratorio líder en el Perú.</p>
+            </div>
+ 
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+      fetch('header.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+  
+      fetch('footer.html')
+        .then(res => res.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+
+
+
+</body>
+</html>

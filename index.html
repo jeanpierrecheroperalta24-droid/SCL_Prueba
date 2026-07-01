@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLC / Servicios de Ingeniería Geotecnia</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" href="/icons/IconLogo.png">
+    <!-- <script src="scripts.js"></script> -->
+</head>
+<body>
+
+
+<!--OK - PARA PLANTILLA (HEADER) NO BORRAR * SE MANEJARA DOS HEADER_1 PRINCIPAL / 2_SECUNDARIO - SEC - HEADER.HTML-->  
+    <header id="headerP">
+        <img src="/img/Logo.jpg" alt="Servicios de Ingeniería Geotecnia" height="10px">
+        <nav>
+            <div class="nav-container">
+                <!-- Icono de menú en la parte derecha -->
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- Lista de enlaces del menú -->
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="/sec/nosotros.html">Nosotros</a></li>
+                    <li><a href="#equipo" id="equipo-link">Equipo</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <!-- <li><a href="#casos-exito">Proyectos</a></li> -->
+                    <li><a href="/doc/BROCHURE_EJEMPLO.pdf" target="_blank">Brochure</a></li>
+                    <!-- <li><a href="#noticias">Noticias</a></li> -->
+                    <li><a href="/sec/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section id="estadisticas">
+        <div class="estadisticas-container">
+            <!-- Estadística 1 -->
+            <div class="estadistica">
+                <img src="/icons/km.png" alt="Icono de kilómetros recorridos">
+                <h3>22 100</h3>
+                <p>KM RECORRIDOS</p>
+            </div>
+            <!-- Estadística 2 -->
+            <div class="estadistica">
+                <img src="/icons/clientes.png" alt="Icono de clientes felices">
+                <h3>1 056</h3>
+                <p>CLIENTES FELICES</p>
+            </div>
+            <!-- Estadística 3 -->
+            <div class="estadistica">
+                <img src="/icons/proyecto.png" alt="Icono de proyectos completados">
+                <h3>290</h3>
+                <p>PROYECTOS</p>
+            </div>
+            <!-- Estadística 4 -->
+            <div class="estadistica">
+                <img src="/icons/horas.png" alt="Icono de horas trabajadas">
+                <h3>17 532</h3>
+                <p>HORAS TRABAJO</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <div class="contenido-nosotros">
+            <!-- Descripción de la empresa -->
+            <div class="descripcion">
+                <p>SLC INGENERÍA GEOTECNIAS.A.C., una empresa 
+                    destacada en el ámbito de la ingeniería 
+                    geotécnica, comenzó sus actividades en el año 
+                    2023 con un equipo altamente capacitado de 
+                    profesionales que poseen un profundo 
+                    entendimiento en ingeniería geotécnica. 
+                    Utilizando tecnología actualizada y programas 
+                    avanzados, facilitamos la recopilación de datos 
+                    en el terreno y optimizamos su procesamiento 
+                    en las instalaciones de la empresa.
+                    Nos esforzamos por convertirnos en la empresa 
+                    más reconocida, destacando por la entrega de 
+                    resultados confiables tanto en el campo como 
+                    en el gabinete. Trabajamos incansablemente 
+                    para superar las expectativas de nuestros 
+                    clientes y contribuir al éxito de sus proyectos.
+                    </p>
+            </div>
+            <!-- Imagen a la derecha -->
+            <div class="imagen">
+                <img src="/img/SLC_oficina.jpg" alt="Grupo de ingenieros trabajando">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <div><img src="/icons/Laboratorio.png" alt="Laboratorio de Suelos; Concreto y Asfalto"></div>
+                <h3>Laboratorio de Suelos,<br> Concreto y Asfalto</h3>
+                <p>Ensayos certificados para control de calidad en materiales de construcción, cumpliendo normas ASTM y AASHTO.
+                    </p>
+                <button onclick="window.location.href='https://wa.me/51965262845?text=Hola%2C%20quiero%20más%20información'">Más información</button>
+
+
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <div><img src="/icons/geofisica.png" alt="Geofísica"></div>
+                <h3>Geofísica</h3>
+                <p>Estudios no invasivos del subsuelo mediante métodos eléctricos y sísmicos para caracterización geotécnica y exploración estructural.</p>
+                <button onclick="window.location.href='https://wa.me/51965262845?text=Hola%2C%20quiero%20más%20información'">Más información</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <div><img src="/icons/topo.png" alt="Topografía y Geodesia"></div>
+                <h3>Topografía y Geodesia</h3>
+                <p>Especializados en la determinación, estudio y representación de la superficie terrestre, 
+                    mediante el empleo de coordenadas, levantamientos y principios geodésicos aplicados a la 
+                    ingeniería y la gestión del espacio.</p>
+                <button onclick="window.location.href='https://wa.me/51965262845?text=Hola%2C%20quiero%20más%20información'">Más información</button>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+                <div><img src="/icons/Calidad.png" alt="Control de Calidad"></div>
+                <h3>Control de Calidad</h3>
+                <p>Proceso de verificación y evaluación de materiales y condiciones del terreno mediante ensayos in situ, 
+                    asegurando la conformidad con los estándares y especificaciones técnicas para garantizar la 
+                    estabilidad y seguridad de las estructuras.</p>
+                <button onclick="window.location.href='https://wa.me/51965262845?text=Hola%2C%20quiero%20más%20información'">Más información</button>
+            </div>
+            <!-- Card 5 -->
+            <div class="card">
+                <div><img src="/icons/Construccion.png" alt="Control de la Construcción"></div>
+                <h3>Control de la Construcción</h3>
+                <p>Proceso de supervisión y gestión de las actividades en obra, asegurando el cumplimiento de los plazos, 
+                    costos y estándares de calidad establecidos, mediante la planificación, monitoreo 
+                    y evaluación continua de los trabajos ejecutados.</p>
+                <button onclick="window.location.href='https://wa.me/51965262845?text=Hola%2C%20quiero%20más%20información'">Más información</button>
+            </div>
+            <!-- Agregar más cards según los servicios -->
+        </div>
+    </section>
+
+    <section id="equipo">
+        <h2>Equipo de Trabajo</h2>
+        <div class="equipo-container">
+            <!-- Tarjeta 1 -->
+            <div class="card">
+                <div><img src="/img/Equipo/usuario (1).png" alt="Aleksy Sebastian Rodriguez Vilchez"></div>
+                <h3>Aleksy Sebastian Rodriguez Vilchez</h3>
+                <p>Gerente General</p>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="card">
+                <div><img src="/img/Equipo/usuario (2).png" alt="Milagros Shantal Ayvar Moscoso"></div>
+                <h3>Milagros Shantal Ayvar Moscosoz</h3>
+                <p>Área Administrativas</p>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="card">
+                <div><img src="/img/Equipo/usuario (3).png" alt="Melody Nicole Taco Rios"></div>
+                <h3>Melody Nicole Taco Rios</h3>
+                <p>Área Contable</p>
+            </div>
+            <!-- Tarjeta 4 -->
+            <div class="card">
+                <div><img src="/img/Equipo/usuario (4).png" alt="Lucía Gómez"></div>
+                <h3>Maria Fe Villalobos Rodríguezz</h3>
+                <p>Área de Marketing y Comunicaciones</p>
+            </div>
+            <!-- Tarjeta 5 -->
+            <div class="card">
+                <div><img src="/img/Equipo/usuario (5).png" alt="Diego Del Rio Ñañez"></div>
+                <h3>Diego Del Rio Ñañez</h3>
+                <p>Área De Calidad</p>
+            </div>
+            <!-- Tarjeta 6 -->
+            <div class="card">
+                <div><img src="/img/Equipo/usuario (6).png" alt="Gian Carlo Jorge Alberto Castillo Melo"></div>
+                <h3>Gian Carlo Jorge Alberto Castillo Melo</h3>
+                <p>Área De Laboratorio</p>
+            </div>
+            <!-- Tarjeta 7 -->
+            <div class="card">
+                <div><img src="/img/Equipo/usuario (7).png" alt="Mirella Estrella Flores Cachay"></div>
+                <h3>Mirella Estrella Flores Cachay</h3>
+                <p>Área Tecnica</p>
+            </div>
+            <!-- Tarjeta 8
+            <div class="card">
+                <img src="persona8.jpg" alt="María Fernández">
+                <h3>María Fernández</h3>
+                <p>Gerente de Ingeniería</p>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="por-que-elegirnos">
+        <h2>¿Por Qué Elegirnos?</h2>
+        <div class="contenido-elegirnos">
+
+            <div class="imagen-elegirnos">
+                <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/8aBoa03a278" 
+                    title="Video de ¿Por Qué Elegirnos?" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>-->
+                <img src="/img/Densidad.jpg" alt="">
+            </div>            
+            <div class="descripcion-elegirnos">
+             <p>
+            Nuestra empresa se distingue por su sólida trayectoria en el sector, respaldada por un 
+            equipo multidisciplinario altamente capacitado y especializado. Implementamos tecnologías 
+            de vanguardia y metodologías avanzadas en cada fase del proyecto, garantizando precisión, 
+            eficiencia y cumplimiento de los estándares técnicos. Ofrecemos soluciones personalizadas y 
+            optimizadas, con un enfoque riguroso en la gestión de calidad, plazos y costos, asegurando
+            resultados fiables y sostenibles en cada obra.
+            </p>   
+            </div>
+        
+        </div>
+
+    </section>
+
+    <!-- <section id="generico">
+        <h2>Ofertas y Promociones</h2>
+        <p>Descuentos exclusivos para nuevos clientes y paquetes especiales para grandes proyectos.</p>
+    </section> -->
+
+
+    <section id="contactanos">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="correo" placeholder="Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Escribe tu consulta aquí"></textarea>
+            <button type="button" id="send-button">Enviar</button>
+        </form>
+    </section>
+
+
+<!--OK - PARA PLANTILLA (FOOTER Y WSP)-->
+    <!-- <footer>
+        <div class="footer-row">
+            Columna 1: Logo de la empresa
+            <div class="footer-column">
+                <img src="/img/Logo.jpg" alt="Logo de la empresa" class="logo">
+            </div>
+    
+            Columna 2: Más información
+            <div class="footer-column">
+                <h4>Más Información</h4>
+                <p>
+                    <img src="/icons/telefono.png" alt="Teléfono" class="icon">
+                    +51 960 456 789
+                </p>
+                <p>
+                    <img src="/icons/gmail.png" alt="Correo" class="icon">
+                    info@geotecnia.com
+                </p>
+            </div>
+    
+            Columna 3: Horario de atención
+            <div class="footer-column">
+                <h4>Horario de Atención</h4>
+                <p>● Lunes a Viernes:<br />8:00 AM - 6:00 PM</p>
+                <p>● Sábados<br />9:00 AM - 1:00 PM</p>
+                <p>● Domingos:<br />Cerrado</p>
+            </div>
+    
+            Columna 4: Nuestros Servicios
+            <div class="footer-column">
+                <h4>Nuestros Servicios</h4>
+                <p>✔ Estudios de Mecánica de Suelos</p>
+                <p>✔ Laboratorio de Concreto y Asfalto</p>
+                <p>✔ Evaluación Geotécnica</p>
+                <p>✔ Control de Calidad</p>
+                <p>✔ Consultoría en Ingeniería Civil y Minería</p>
+            </div>
+        </div>
+        <p class="reservado">&copy; 2025 Servicios de Ingeniería Geotecnia. Todos los derechos reservados.</p>
+    </footer> -->
+
+    <div id="footer"></div>
+
+    <!-- Botón flotante de WhatsApp con ventana de diálogo -->
+    <a href="https://wa.me/51965262845" target="_blank" class="whatsapp-btn">
+        <img src="/icons/whatsapp.png" alt="WhatsApp">
+        <span class="tooltip">Hola,<br />¿Necesitas ayuda?</span>
+    </a>
+
+    <script src="scripts.js"></script>
+    <script>
+        fetch('header.html')
+          .then(res => res.text())
+          .then(data => document.getElementById('header').innerHTML = data);
+    
+        fetch('footer.html')
+          .then(res => res.text())
+          .then(data => document.getElementById('footer').innerHTML = data);
+    
+         //Colocar correo de empresa "mailto:test@example"
+        document.querySelector('#send-button').addEventListener('click', function () {
+            const nombre = document.querySelector('input[name="nombre"]').value;
+            const correo = document.querySelector('input[name="correo"]').value;
+            const mensaje = document.querySelector('textarea[name="mensaje"]').value;
+
+            const mailtoLink = `mailto:test@example.com?subject=Consulta de ${encodeURIComponent(nombre)}&body=${encodeURIComponent(mensaje)}%0A%0AContacto: ${encodeURIComponent(correo)}`;
+            window.location.href = mailtoLink;
+        });
+    </script>
+
+
+</body>
+</html>
